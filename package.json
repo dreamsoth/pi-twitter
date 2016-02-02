@@ -14,13 +14,16 @@
     "raspberry",
     "pi",
     "twitter",
-    "motion",
-    "johnny-five"
+    "motion"
   ],
   "author": "dreamsoth",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dreamsoth/pi-twitter/issues"
   },
-  "homepage": "https://github.com/dreamsoth/pi-twitter#readme"
+  "homepage": "https://github.com/dreamsoth/pi-twitter#readme",
+  "dependencies": {
+    "chokidar": "^1.4.2",
+    "twitter": "^1.2.5"
+  }
 }
