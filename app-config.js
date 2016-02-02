@@ -7,6 +7,7 @@ module.exports = {
   },
   chokidar: {
     watch_dir: '/home/pi/camera_pi_out/',
+    //watch_dir: '.',
     watcher: {
       ignored: /(?!-00)...\.jpg$/,
       persistent: true,
