@@ -1,0 +1,26 @@
+{
+  "name": "pi-twitter",
+  "version": "0.0.1",
+  "description": "Raspberry pi + motion + twitter",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamsoth/pi-twitter.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "twitter",
+    "motion",
+    "johnny-five"
+  ],
+  "author": "dreamsoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamsoth/pi-twitter/issues"
+  },
+  "homepage": "https://github.com/dreamsoth/pi-twitter#readme"
+}
