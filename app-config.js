@@ -8,13 +8,9 @@ module.exports = {
   chokidar: {
     watch_dir: '/home/pi/camera_pi_out/',
     watcher: {
-      ignored: /[\/\\]\./,
+      ignored: /(?!-00)...\.jpg$/,
       persistent: true,
       ignoreInitial: true
     }
-  },
-  motion: {
-    target_dir: '/home/pi/camera_pi_out/',
-    config_file: '/etc/motion/motion.conf'
   }
 };

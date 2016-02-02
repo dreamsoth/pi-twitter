@@ -1,7 +1,6 @@
 var chokidar = require('chokidar');
 var Twitter = require('twitter');
 var config = require('./app-config.js');
-var nodeMotion = require('node-motion');
 
 var log  = console.log.bind(console);
 var watcher = chokidar.watch(config.chokidar.watch_dir, config.chokidar.watcher);
@@ -9,10 +8,8 @@ var client = new Twitter(config.twitter);
 
 log('system watching dir: '+config.chokidar.watch_dir);
 
-nodeMotion();
-
 watcher.on('add', function(path) {
-  log('system has detected intruder')
+  log('system has detected intruder');
   tweetPost('intruder detected');
 });
 
