@@ -24,6 +24,7 @@
   "homepage": "https://github.com/dreamsoth/pi-twitter#readme",
   "dependencies": {
     "chokidar": "^1.4.2",
+    "motion": "^0.2.2",
     "twitter": "^1.2.5"
   }
 }

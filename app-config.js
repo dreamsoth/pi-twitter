@@ -6,11 +6,15 @@ module.exports = {
     access_token_secret: 'hKxPJxLZIXPqAzMRLYFOSpmQlxsco6Wwyjf5jYuJ3L4ia'
   },
   chokidar: {
-    watch_dir: '.',
+    watch_dir: '/home/pi/camera_pi_out/',
     watcher: {
       ignored: /[\/\\]\./,
       persistent: true,
       ignoreInitial: true
     }
+  },
+  motion: {
+    target_dir: '/home/pi/camera_pi_out/',
+    config_file: '/etc/motion/motion.conf'
   }
 };
